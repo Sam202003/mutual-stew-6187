@@ -1,10 +1,13 @@
-import { useSelector } from 'react-redux'
-import './App.css'
-import MainModal from './Components/MainModal/MainModal'
-
-function App() {
-  const { isOpen } = useSelector((store) => store.modal)
-  return <div className="App">{isOpen && <MainModal />}</div>
+import React from 'react'
+import FooterTop from './Components/Footer/FooterTop'
+import Navbar from './Components/Navbar/Navbar'
+const App = () => {
+  return (
+    <div>
+      <Navbar />
+      <FooterTop/>
+    </div>
+  )
 }
 
 export default App
