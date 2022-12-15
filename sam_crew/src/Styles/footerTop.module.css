@@ -1,0 +1,29 @@
+.parent {
+    width: 98.7vw;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    width: 458px;
+    padding: 10px 0;
+}
+
+.inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    font-size: 13px;
+    font-weight: 600;
+    color: #000;
+    gap: 10px;
+}
+
+.inner i {
+    font-size: 20px;
+}
