@@ -1,0 +1,110 @@
+h4 {
+    font-weight: 600;
+}
+.nav_parent {
+    position: fixed;
+    top: 0;
+    width: 98.7vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    border-bottom: 0.5px solid rgb(207, 205, 205);
+    /* box-shadow: 0 3px 6px 0 rgb(0 0 0 / 6%); */
+    background-color: white;
+    z-index: 1;
+}
+.nav_logo {
+    display: flex;
+    align-items: center;
+    gap: 55px;
+}
+.nav_logo svg {
+    height: 23.89px;
+    width: 114.6px;
+    margin-left: 20px;
+}
+.nav_linkWrap {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.nav_linkWrap a {
+    height: 100%;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid transparent;
+}
+.nav_linkWrap a:hover {
+    border-color: black;
+}
+.nav_linkWrap a:nth-child(9) {
+    color: rgb(220,55,55);
+}
+.nav_linkWrap a:nth-child(9):hover {
+    border-color: rgb(220,55,55);
+}
+.nav_end {
+    display: flex;
+    gap: 30px;
+    padding-right: 25px;
+    align-items: center;
+    height: 60px;
+}
+.nav_searchInput {
+    padding-left: 30px;
+    font-weight: 550;
+    outline: none;
+    border: 1px solid rgb(182, 177, 177);
+}
+.nav_searchInput:focus {
+    border-color: black;
+    outline: none;
+}
+.nav_icons {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+}
+.nav_icons:hover {
+    border-color: black;
+}
+.nav_logIN {
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 100%;
+    border-bottom: 3px solid transparent;
+}
+.nav_logIN:hover {
+    border-color: black;
+}
+.amount_container {
+    position: absolute;
+    /* top: -0.6rem;
+    right: -0.6rem; */
+    width: 20px;
+    height: 20px;
+    margin-top: -28px;
+    margin-left: 15px;
+    border-radius: 50%;
+    background: rgb(1,97,255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.total_amount {
+    color: white;
+    margin-bottom: 0;
+    font-size: 0.85rem;
+}
