@@ -19,6 +19,13 @@ const MainLogo = (props) => (
     </g>
   </svg>
 )
+const MainLogo1 = () => {
+  return (
+    <>
+    <img src="C:\Users\samru\OneDrive\Documents\Pictures\Desktop\Let's try it\Clone-Of-Jcrew.com-main\src\Assets\india.png" alt="" />
+    </>
+  )
+}
 
 const FooterBottom_1 = (props) => (
   <svg
@@ -81,4 +88,4 @@ function Twitter() {
   )
 }
 
-export { FooterBottom_1, MainLogo, FooterBottom_2, HeartIcon, Twitter }
+export { FooterBottom_1, MainLogo,MainLogo1, FooterBottom_2, HeartIcon, Twitter }

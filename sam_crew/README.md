@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# Clone-Of-Jcrew.com
+Deployed Link: https://endearing-dasik-ac4a55.netlify.app/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Clone Of Jcrew.com
+J.Crew is an E-commerce website where you can buy many products Like women's, men's, and children's apparel 
+and accessories, including swimwear, outerwear, lounge-wear, bags, sweaters, denim, dresses, suiting, and shoes.
 
-## Available Scripts
+Homepage:-
 
-In the project directory, you can run:
+![image](https://user-images.githubusercontent.com/99814514/174261658-1f252413-040e-4b98-9178-2df02ca32bce.png)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Sign In:-
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+![image](https://user-images.githubusercontent.com/99814514/174261700-799356a1-8606-404a-9b0b-8914814f6fe4.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Sign Up:-
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![image](https://user-images.githubusercontent.com/99814514/174262271-0be60279-6ffd-47b2-a281-3d39bce0ecd5.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Men's page:-
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![image](https://user-images.githubusercontent.com/99814514/174261743-210eeaef-76ec-4b3d-a238-159c7009d1ce.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+Different category product with filters:-
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![image](https://user-images.githubusercontent.com/99814514/174261809-1011ac99-b3ee-410f-93ed-8dbf6439ad25.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Add to cart:-
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![image](https://user-images.githubusercontent.com/99814514/174261864-972d8161-a5f4-49ea-917d-a138aa9dc543.png)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Checkout page:-
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![image](https://user-images.githubusercontent.com/99814514/174261916-31c1fcca-4777-4ab9-9430-f164fc791a4a.png)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Payment Page:-
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![image](https://user-images.githubusercontent.com/99814514/174261956-aaec24be-3cfb-4df9-ac81-3774c5056168.png)
+
+
+
+OTP Verification:-
+
+
+![image](https://user-images.githubusercontent.com/99814514/174261996-8dd79123-e070-42e2-8152-e34a122c85de.png)
+
+
+
+Features
+* User Friendly
+* Easy UI
+* Fullscreen mode
+
+Tech Stack used
+* HTML
+* CSS
+* JavaScript
+* ReactJS
+* Redux
+* React Router DOM
+
+Thank You😍😍…..
