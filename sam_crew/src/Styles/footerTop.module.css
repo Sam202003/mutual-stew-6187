@@ -5,14 +5,12 @@
     justify-content: center;
     align-items: center;
 }
-
 .main {
     display: flex;
     align-items: center;
     width: 458px;
     padding: 10px 0;
 }
-
 .inner {
     display: flex;
     justify-content: center;
@@ -23,7 +21,6 @@
     color: #000;
     gap: 10px;
 }
-
 .inner i {
     font-size: 20px;
 }

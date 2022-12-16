@@ -1,0 +1,314 @@
+.wrapper {
+  width: 100%;
+  background-color: #f8f8f8;
+  margin-top: 60px;
+  padding: 40px;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.left {
+  max-width: 600px;
+  width: 100%;
+}
+
+.parent {
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 20px;
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+
+.right {
+  max-width: 340px;
+  width: 100%;
+}
+
+.content_wrap {
+  max-width: 378px;
+  margin: auto;
+}
+
+.head p {
+  font-size: 18px;
+  letter-spacing: 0.6px;
+  font-weight: 600;
+}
+
+.inputs {
+  padding-top: 20px;
+}
+.input {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  cursor: pointer;
+}
+/* 
+.fix {
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+.fix input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+} */
+
+/* The container */
+.fix {
+  display: block;
+  padding: 1px 1px 1px 1px;
+  border-radius: 50%;
+  /* border: 1px solid #ddd; */
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  height: 25px;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-right: 10px;
+}
+
+/* Hide the browser's default radio button */
+.fix input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  right: 4px;
+  z-index: 1;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.fix:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.fix input:checked ~ .checkmark {
+  background-color: #2196f3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.fix:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.fix input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.fix .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.delivery_method {
+  flex: 1;
+}
+
+.delivery_method {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.delivery_method_left {
+  margin-bottom: 15px;
+}
+
+.delivery_method_left .bold {
+  font-size: 12px;
+  letter-spacing: 0px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.delivery_method_left .light {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+}
+
+.delivery_method_right .price {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.content_wrap form {
+  width: 100%;
+}
+
+.two_ip {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.ip_left {
+  margin-right: 12px;
+}
+
+.ip_left,
+.ip_right {
+  flex: 1;
+}
+.ip_left input,
+.ip_right input,
+.item input {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+.ip_left input:focus,
+.ip_right input:focus,
+.item input:focus {
+  border-color: #2196f3;
+}
+
+.item,
+.submit {
+  margin: 10px 0;
+  width: 100%;
+}
+.check_box {
+  border: 1px solid #ddd;
+  padding: 10px;
+  display: flex;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.c_left {
+  width: 10%;
+  margin-right: 10px;
+}
+
+.c_right {
+  font-size: 11px;
+  letter-spacing: 0.5px;
+}
+
+.submit input {
+  padding: 15px 10px;
+  text-align: center;
+  background-color: #0161ff;
+  color: #fff;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.w {
+  padding: 30px;
+  width: 100%;
+  background-color: #fff;
+}
+
+.back_btn {
+  width: 100%;
+  display: flex;
+}
+.back_btn a {
+  text-decoration: none;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #000;
+  color: #000;
+  background-color: #fff;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.back_btn a:hover {
+  color: #0161ff;
+  border-color: #0161ff;
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+}
+.cap p {
+  font-size: 12px;
+  letter-spacing: 0.6px;
+  font-weight: 500;
+}
+.product {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  margin: 10px 0;
+}
+.p_left {
+  width: 30%;
+  margin-right: 20px;
+}
+
+.p_left img {
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  font-size: 12px;
+  letter-spacing: 0.6px;
+  font-weight: 600;
+}
+
+.p_right {
+  flex: 1;
+}
+
+.cap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.cap_left,
+.cap_right {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+}
