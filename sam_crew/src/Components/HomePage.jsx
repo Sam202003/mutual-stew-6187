@@ -5,8 +5,8 @@ import styles from "../styles/HomePage.module.css";
 export default function MainPage() {
     const navigate = useNavigate();
     useEffect(() => {
-       
-document.title = "Sam'z.Crew: Clothes, Shoes & Accessories";
+
+document.title = "J.Crew: Clothes, Shoes & Accessories";
         if (window.pageYOffset > 300) {
             window.scrollTo({
             top: 0,
