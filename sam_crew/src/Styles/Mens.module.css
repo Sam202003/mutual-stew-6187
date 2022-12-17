@@ -1,0 +1,118 @@
+.main {
+    margin-top: 80px;
+}
+.headWrap {
+    height: 650px;
+    width: 100%;
+    padding: 0 24px 0;
+    display: flex;
+}
+.headImg {
+    height: 100%;
+    width: 100%;
+    background-image: url('./pictures/menspic.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headContent {
+    height: 322px;
+    width: 540px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.headContent1 {
+    font-size: 130px;
+    line-height: .9;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #fff;
+}
+.headContent2 {
+    font-size: 50px;
+    line-height: .9;
+    font-weight: 400;
+    letter-spacing: 0;
+}
+.headContent3 {
+    font-size: 18px;
+    line-height: 1.4;
+    letter-spacing: 0.25px;
+    font-weight: 600;
+    color: #fff;
+}
+.headContent4 {
+    text-decoration: underline;
+    font-size: 16px;
+    line-height: 1.4;
+    letter-spacing: 0.25px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.midWrap {
+    width: 100%;
+    height: 550px;
+    padding: 50px 24px;
+    /* background-color: pink; */
+}
+.midImgWrap {
+    margin-top: 15px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+}
+.midImgWrap div {
+    height: 100%;
+    flex: 1;
+    cursor: pointer;
+    /* background-color: yellow; */
+}
+.midImg img{
+    width: 100%;
+    height: 416.31px;
+}
+.midImg a {
+    text-decoration: none;
+    color: black
+}
+
+.mainAboveFooter {
+    height: 372.23px;
+    width: 100%;
+    /* background: yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.aboveFooterImgWrap {
+    display: flex;
+    gap: 20px;
+    width: 90%;
+}
+.aboveFooterImgWrap div {
+    /* height: 259.64px; */
+    flex: 1;
+    cursor: pointer;
+    /* background: turquoise; */
+}
+.aboveFooterInner img {
+    /* height: 208.16px; */
+    width: 100%;
+}
+.aboveFooterInner div {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+}

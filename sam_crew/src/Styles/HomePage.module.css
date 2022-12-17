@@ -268,7 +268,8 @@
 .hq{
     text-align: center;
     padding: 20px;
-    font-size: 10px;
+    font-size: 15px;
+    font-weight: 500;
     border: 0.1rem solid gray;
 }
 .aboveFooterImgWrap {

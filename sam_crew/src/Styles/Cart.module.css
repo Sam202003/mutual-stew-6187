@@ -1,0 +1,279 @@
+.wrapper {
+  width: 100%;
+  margin-top: 60px;
+  background-color: #f8f8f8;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+}
+
+.left {
+  background-color: #fff;
+  max-width: 642px;
+  width: 100%;
+
+}
+
+.right {
+  background-color: #fff;
+  max-width: 320px;
+  width: 100%;
+  padding: 30px 0;
+}
+
+.top {
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+}
+.top_left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 33%;
+}
+.top_left .head {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+}
+.items {
+  font-size: 12px;
+  color: #8c7676;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+}
+.items span {
+  margin-left: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.items span:hover {
+  color: blue;
+}
+
+.mid {
+  width: 100%;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+}
+
+.mid_left {
+  width: 60%;
+}
+
+.small {
+  font-size: 11px;
+  color: #8c7676;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  font-weight: 600;
+}
+.mid_middle,
+.mid_right {
+  text-align: center;
+  width: 20%;
+}
+
+.products {
+  width: 100%;
+}
+
+.product_wrap {
+  padding: 15px;
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid #ddd;
+}
+.empty {
+  width: 100%;
+  padding: 30px;
+  font-size: 16px;
+  letter-spacing: 0.6px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.p_details {
+  width: 60%;
+  display: flex;
+}
+
+.img_box {
+  width: 30%;
+  margin-right: 20px;
+}
+.img_box img {
+  width: 100%;
+  height: 100%;
+}
+
+.details {
+  width: 70%;
+}
+
+.title,
+.size,
+.buttons,
+.color {
+  margin-bottom: 8px;
+}
+
+.title p,
+.size p,
+.color p {
+  font-size: 13px;
+  letter-spacing: 0.6px;
+  font-weight: 500;
+}
+
+.size p span,
+.color p span {
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.6px;
+}
+
+.buttons button {
+  background-color: #fff;
+  color: #8c7676;
+  border: none;
+  outline: none;
+  padding: 4px 0px;
+  cursor: pointer;
+}
+
+.price {
+  width: 20%;
+  font-size: 14px;
+  word-wrap: break-word;
+  font-weight: bold;
+  letter-spacing: 0.6px;
+}
+.qty {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.qty .qty_box {
+  padding: 2px 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  font-size: 13px;
+}
+.payment_total {
+  width: 100%;
+  padding: 0px 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+.sub_total,
+.sub_estimated_total {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.sub_estimated_total_left {
+  width: 50%;
+}
+.sub_total_left p,
+.sub_total_right p {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.dark {
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+}
+.dim {
+  font-size: 12px;
+  font-weight: 500;
+  color: #8c7676;
+  letter-spacing: 0.6px;
+}
+
+.sub_estimated_total_right .dark {
+  text-align: right;
+}
+
+.checkout_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.checkout_container button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  background-color: #0161ff;
+  width: 100%;
+  padding: 12px 10px;
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0.6px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.promo_conatiner {
+  padding: 20px;
+}
+
+.promo_conatiner p {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.ip_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ip_container input {
+  width: 70%;
+  outline: none;
+  border: 1px solid #ddd;
+  margin-right: 12px;
+  padding: 12px 10px;
+  font-size: 14px;
+}
+.ip_container button {
+  background-color: #000;
+  outline: none;
+  border: none;
+  font-weight: bold;
+  padding: 12px 16px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.ip_container .disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
