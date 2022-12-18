@@ -1,9 +1,8 @@
 .mainParent {
     margin-top: 60px;
 }
-
-.sangam {
-    width: 100%;
+.sam {
+    width: auto;
     height: 750px;
     background-image: url(./pictures/picc1.png);
     background-size: cover;
@@ -11,6 +10,30 @@
     background-position: center;
     margin-bottom: 20px;
     cursor: pointer;
+}
+.sam_container{
+    width:100%;
+    height: 700px;
+    margin-bottom: 20px;
+    background-image: url(https://www.jcrew.com/brand_creative/homepage2022/15-Dec4/2022dec2_1213_hp_w_img0m.jpg);
+    background-size:100% ;
+}
+.sam_btn{
+    display: flex;
+    text-align: center;
+    gap:20px;
+    margin: auto;
+    justify-content: center;
+    margin-top: 20px;
+}
+.innerBtn{
+ padding: 15px;
+ width:200px;
+ background-color: aliceblue;
+ border: none;
+ cursor: pointer;
+
+ 
 }
 .MainPage_SubTop {
     margin: 0 81px;
@@ -20,14 +43,14 @@
     grid-template-columns: repeat(2, 50%);
     grid-template-rows: repeat(3, 33.33%);
 }
-.Sangam_1 {
+.Sam_1 {
     background-image: url('https://www.jcrew.com/brand_creative/2022/202206-Jun/flyout/2022jun_0607_flyouts_w_img1.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     color: white;
 }
-.Sangam_1 div {
+.Sam_1 div {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -37,14 +60,14 @@
     gap: 10px;
 }
 
-.Sangam_2 {
+.Sam_2 {
     background-image: url('https://www.jcrew.com/brand_creative/2022/202206-Jun/flyout/2022jun_0607_flyouts_w_img3.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     color: white;
 }
-.Sangam_2 div {
+.Sam_2 div {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -53,13 +76,13 @@
     padding-bottom: 65px;
     gap: 10px;
 }
-.Sangam_3 {
+.Sam_3 {
     background-image: url('https://www.jcrew.com/brand_creative/2022/202206-Jun/flyout/2022jun_0607_flyouts_w_img2.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
-.Sangam_3 div {
+.Sam_3 div {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -69,14 +92,14 @@
     gap: 10px;
     text-align: center;
 }
-.Sangam_4 {
+.Sam_4 {
     background-image: url('https://www.jcrew.com/brand_creative/2022/202205-May/w_swim/2022may_0519_w_swim_img7.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     color: white;
 }
-.Sangam_4 div {
+.Sam_4 div {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -85,14 +108,14 @@
     padding-bottom: 65px;
     gap: 10px;
 }
-.Sangam_5 {
+.Sam_5 {
     background-image: url(./pictures/1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     color: white;
 }
-.Sangam_5 div {
+.Sam_5 div {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -102,14 +125,14 @@
     gap: 10px;
     text-align: center;
 }
-.Sangam_6 {
+.Sam_6 {
     background-image: url(./pictures/2.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     color: black;
 }
-.Sangam_6 div {
+.Sam_6 div {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -118,19 +141,19 @@
     padding-top: 30px;
     gap: 5px;
 }
-.Sangam_7 {
+.Sam_7 {
     height: 65.05px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.Sangam_8{
+.Sam_8{
     display: flex;
     align-items: center;
     gap: 30px;
 }
-.Sangam_9 {
+.Sam_9 {
     font-size: 30px;
     font-weight: 300;
     letter-spacing: 1px;
@@ -268,8 +291,9 @@
 .hq{
     text-align: center;
     padding: 20px;
-    font-size: 10px;
-    border: 0.1rem solid gray;
+    font-size: 18px;
+
+    border:1px solid rgb(223, 222, 222);
 }
 .aboveFooterImgWrap {
     display: flex;

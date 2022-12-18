@@ -1,22 +1,21 @@
-import React, { useEffect, useState } from "react";
-import styles from "../styles/Checkout.module.css";
+import React, { useEffect, useState } from 'react'
+import styles from '../styles/Checkout.module.css'
 const SingleProductItem = ({ item }) => {
-
-  const [rupee, setRupee] = useState(0);
+  const [rupee, setRupee] = useState(0)
   const handleIndianRupees = (value) => {
-    let x = value;
-    x = x.toString();
-    let lastThree = x.substring(x.length - 3);
-    let otherNumbers = x.substring(0, x.length - 3);
-    if (otherNumbers !== "") lastThree = "," + lastThree;
-    let res = otherNumbers.replace(/\B(?=(\d{2})+(?!\d))/g, ",") + lastThree;
-    return res;
-  };
+    let x = value
+    x = x.toString()
+    let lastThree = x.substring(x.length - 3)
+    let otherNumbers = x.substring(0, x.length - 3)
+    if (otherNumbers !== '') lastThree = ',' + lastThree
+    let res = otherNumbers.replace(/\B(?=(\d{2})+(?!\d))/g, ',') + lastThree
+    return res
+  }
 
   useEffect(() => {
-    let res = handleIndianRupees(item.price);
-    setRupee(res);
-  }, []);
+    let res = handleIndianRupees(item.price)
+    setRupee(res)
+  }, [])
   return (
     <>
       {item.id && (
@@ -68,13 +67,12 @@ const SingleProductItem = ({ item }) => {
               <div className={styles.cap_right}>
                 <p>{rupee}</p>
               </div>
-              
             </div>
           </div>
         </div>
       )}
     </>
-  );
-};
+  )
+}
 
-export default SingleProductItem;
+export default SingleProductItem

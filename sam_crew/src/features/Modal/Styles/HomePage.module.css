@@ -1,0 +1,292 @@
+.mainParent {
+    margin-top: 60px;
+}
+
+.sangam {
+    width: 100%;
+    height: 750px;
+    background-image: url(./pictures/picc1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.MainPage_SubTop {
+    margin: 0 81px;
+    height: 2223px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(3, 33.33%);
+}
+.Sangam_1 {
+    background-image: url('https://www.jcrew.com/brand_creative/2022/202206-Jun/flyout/2022jun_0607_flyouts_w_img1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.Sangam_1 div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 65px;
+    gap: 10px;
+}
+
+.Sangam_2 {
+    background-image: url('https://www.jcrew.com/brand_creative/2022/202206-Jun/flyout/2022jun_0607_flyouts_w_img3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.Sangam_2 div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 65px;
+    gap: 10px;
+}
+.Sangam_3 {
+    background-image: url('https://www.jcrew.com/brand_creative/2022/202206-Jun/flyout/2022jun_0607_flyouts_w_img2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+.Sangam_3 div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 30px 65px;
+    gap: 10px;
+    text-align: center;
+}
+.Sangam_4 {
+    background-image: url('https://www.jcrew.com/brand_creative/2022/202205-May/w_swim/2022may_0519_w_swim_img7.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.Sangam_4 div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 65px;
+    gap: 10px;
+}
+.Sangam_5 {
+    background-image: url(./pictures/1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.Sangam_5 div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 65px;
+    gap: 10px;
+    text-align: center;
+}
+.Sangam_6 {
+    background-image: url(./pictures/2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: black;
+}
+.Sangam_6 div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 30px;
+    gap: 5px;
+}
+.Sangam_7 {
+    height: 65.05px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Sangam_8{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.Sangam_9 {
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-family: Times,serif;
+}
+.navigationBtnWrap {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.navigationBtn {
+    height: 42.47px;
+    width: 136.56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13.56px;
+    font-weight: bold;
+}
+.navigationBtn:hover {
+    color:white;
+    background-color: #666;
+    border: none;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.samMid {
+    height: 1400px;
+    width: 100%;
+    background: rgb(199,202,153);
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.headlineHed {
+    height: 181.64px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0 161.6px;
+}
+.headImg {
+    height: 100%;
+   
+}
+.headDes {
+    font-size: 14.31px;
+    font-weight: 700;
+    position: absolute;
+    margin-left: 810px;
+    z-index: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.mainMidImg {
+    height: 577.64px;
+    background: transparent;
+    display: flex;
+    gap: 30px;
+    margin: 54px 161.6px;
+}
+.mainMidImg div {
+    flex: 1;
+   
+}
+
+.mainMidImgWrap img {
+    height: 402.73px;
+    width: 100%;
+}
+.mainMidH1 {
+    font-size: 17.4px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 26px 0 6.4px;
+    font-weight: 400;
+}
+.mainMidH2 {
+    font-size: 24.45px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 6.4px;
+    font-weight: 400;
+}
+.mainSpan {
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 21px;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.mainMidBottom {
+    height: 470.47px;
+    margin: 0 161.6px;
+    background: transparent;
+    display: flex;
+    gap: 20px;
+}
+.mainMidBottom div {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.mainMidBottom div img {
+    height: 293.33px;
+    width: 100%;
+}
+.innerHead {
+   font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    font-weight: 400;
+}
+.innerSpan {
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+}
+.mainAboveFooter {
+    height: 372px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.hq{
+    text-align: center;
+    padding: 20px;
+    font-size: 10px;
+    border: 0.1rem solid gray;
+}
+.aboveFooterImgWrap {
+    display: flex;
+    gap: 20px;
+    width: 90%;
+}
+.aboveFooterImgWrap div {
+    flex: 1;
+    cursor: pointer;
+   }
+.aboveFooterInner img {
+   width: 100%;
+}
+.aboveFooterInner div {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+}
