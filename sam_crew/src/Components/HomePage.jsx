@@ -5,9 +5,8 @@ import styles from "../styles/HomePage.module.css";
 export default function MainPage() {
     const navigate = useNavigate();
     useEffect(() => {
-
        
-        document.title = "S.Crew: Clothes, Shoes & Accessories";
+document.title = "J.Crew: Clothes, Shoes & Accessories";
         if (window.pageYOffset > 300) {
             window.scrollTo({
             top: 0,
@@ -18,14 +17,11 @@ export default function MainPage() {
     return (
         
         <div className={styles.mainParent}>
-            <div className={styles.hq}>Have a question? We can help.</div>
-            <img style={{width:"100%"}} src="https://www.jcrew.com/brand_creative/homepage2022/15-Dec4/2022dec2_1213_hp_w_img0.jpg" alt="" />
-            <div className={styles.sam}>
-              
-        </div>
+        <div className={styles.hq}>Have a question? We can help.</div>
+        <div className={styles.sangam}></div>
                
         <div className={styles.MainPage_SubTop}>
-        <div className={styles.Sam_1}>
+        <div className={styles.Sangam_1}>
             <div style={{
             marginTop:"-250px"
              }}>
@@ -34,7 +30,7 @@ export default function MainPage() {
         <h4 style={{ textDecoration: "underline" }}>Shop Swimfor every body</h4>
         </div>
         </div>
-        <div className={styles.Sam_2}>
+        <div className={styles.Sangam_2}>
                 <div style={{
                 marginTop:"50px"
                 }}>
@@ -46,7 +42,7 @@ export default function MainPage() {
                 
                 </div>
                 </div>
-                <div className={styles.Sam_3}>
+                <div className={styles.Sangam_3}>
                     <div style={{
                         marginTop:"-300px"
                        }}>
@@ -60,7 +56,7 @@ export default function MainPage() {
                            
                 </div>
                 </div>
-                <div className={styles.Sam_4}>
+                <div className={styles.Sangam_4}>
                     <div style={{
                     marginTop:"100px"
                     }}>
@@ -70,14 +66,14 @@ export default function MainPage() {
                     <h4 style={{ textDecoration: "underline" }}>Shop uor new rbbed active fabric </h4>
                 </div>
                 </div>
-                <div className={styles.Sam_5}> </div>
+                <div className={styles.Sangam_5}> </div>
                     
-                <div className={styles.Sam_6}> </div>
+                <div className={styles.Sangam_6}> </div>
                     
             </div>
-            <div className={styles.Sam_7}>
-            <div className={styles.Sam_8}>
-            <div className={styles.Sam_9}>Shop New Arrivals</div>
+            <div className={styles.Sangam_7}>
+            <div className={styles.Sangam_8}>
+            <div className={styles.Sangam_9}>Shop New Arrivals</div>
                         
                     
                     <div className={styles.navigationBtnWrap}>

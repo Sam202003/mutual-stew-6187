@@ -2,7 +2,7 @@
     margin-top: 60px;
 }
 
-.sam {
+.sangam {
     width: 100%;
     height: 750px;
     background-image: url(./pictures/picc1.png);
@@ -20,14 +20,14 @@
     grid-template-columns: repeat(2, 50%);
     grid-template-rows: repeat(3, 33.33%);
 }
-.Sam_1 {
+.Sangam_1 {
     background-image: url('https://www.jcrew.com/brand_creative/2022/202206-Jun/flyout/2022jun_0607_flyouts_w_img1.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     color: white;
 }
-.Sam_1 div {
+.Sangam_1 div {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -37,14 +37,14 @@
     gap: 10px;
 }
 
-.Sam_2 {
+.Sangam_2 {
     background-image: url('https://www.jcrew.com/brand_creative/2022/202206-Jun/flyout/2022jun_0607_flyouts_w_img3.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     color: white;
 }
-.Sam_2 div {
+.Sangam_2 div {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -53,13 +53,13 @@
     padding-bottom: 65px;
     gap: 10px;
 }
-.Sam_3 {
+.Sangam_3 {
     background-image: url('https://www.jcrew.com/brand_creative/2022/202206-Jun/flyout/2022jun_0607_flyouts_w_img2.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
-.Sam_3 div {
+.Sangam_3 div {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -69,14 +69,14 @@
     gap: 10px;
     text-align: center;
 }
-.Sam_4 {
+.Sangam_4 {
     background-image: url('https://www.jcrew.com/brand_creative/2022/202205-May/w_swim/2022may_0519_w_swim_img7.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     color: white;
 }
-.Sam_4 div {
+.Sangam_4 div {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -85,14 +85,14 @@
     padding-bottom: 65px;
     gap: 10px;
 }
-.Sam_5 {
+.Sangam_5 {
     background-image: url(./pictures/1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     color: white;
 }
-.Sam_5 div {
+.Sangam_5 div {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -102,14 +102,14 @@
     gap: 10px;
     text-align: center;
 }
-.Sam_6 {
+.Sangam_6 {
     background-image: url(./pictures/2.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     color: black;
 }
-.Sam_6 div {
+.Sangam_6 div {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -118,19 +118,19 @@
     padding-top: 30px;
     gap: 5px;
 }
-.Sam_7 {
+.Sangam_7 {
     height: 65.05px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.Sam_8{
+.Sangam_8{
     display: flex;
     align-items: center;
     gap: 30px;
 }
-.Sam_9 {
+.Sangam_9 {
     font-size: 30px;
     font-weight: 300;
     letter-spacing: 1px;
@@ -268,8 +268,7 @@
 .hq{
     text-align: center;
     padding: 20px;
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 10px;
     border: 0.1rem solid gray;
 }
 .aboveFooterImgWrap {

@@ -1,4 +1,3 @@
-
 import React, { useEffect } from "react";
 import styles from "../styles/SignUp.module.css";
 import { Cross, Info } from "./Icons";
